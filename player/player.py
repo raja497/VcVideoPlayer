@@ -212,8 +212,8 @@ allcmd = ["stream", "playlist", f"stream@{Config.BOT_USERNAME}", f"playlist@{Con
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/DeCodeSupport"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/DOSTI_GROUP_1234"),
             ],
             [
                 InlineKeyboardButton("Mᴀᴋᴇ Yᴏᴜʀ Oᴡɴ", url="https://heroku.com/deploy?template=https://github.com/TeamDeeCode/VcVideoPlayer/tree/alpha"),
