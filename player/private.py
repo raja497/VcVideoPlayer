@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaDocument
 
 
-HOME_TEXT = "🎉 **Wtsup [{}](tg://user?id={})**, \n\nI Am **VcVideoPlayer**. \n`Lets Enjoy Cinematic View  of Group Video Player With Your Friends ❤️😊` \n\n**Made With 💞 By @TeamDeeCode!**"
+HOME_TEXT = "🎉 **Wtsup [{}](tg://user?id={})**, \n\nI Am **VcVideoPlayer**. \n`Lets Enjoy Cinematic View  of Group Video Player With Your Friends ❤️😊` \n\n**Made With 💞 By @ABOUT_ABHINAS!**"
 HELP_TEXT = """
 🍃 --**SETTINGS**-- :
 
@@ -35,7 +35,7 @@ HELP_TEXT = """
 \u2022 `/getlogs` - get the ffmpeg & bot logs
 
 © **Powered By** : 
-**@TeamDeeCoDe** 👩‍💻
+**@ABOUT_ABHINAS** 👩‍💻
 """
 
 admin_filter=filters.create(is_admin) 
@@ -48,11 +48,11 @@ async def start(client, message):
                 InlineKeyboardButton("Sᴇᴀʀᴄʜ", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/DeCodeSupport"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/DOSTI_GROUP_1234"),
             ],
             [
-                InlineKeyboardButton("Bᴏᴛ Lɪꜱᴛ", url="https://t.me/otherBotList"),
+                InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/abhinasroy"),
                 InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url="https://github.com/TeamDeeCode/VcVideoPlayer/tree/alpha"),
             ],
             [
